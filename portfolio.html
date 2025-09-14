@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nama Perusahaan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h2><span class="logo-accent"></span>Zayyan's Web</h2>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="services.html">Layanan</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <div class="page-banner-content">
+                <h1>Portfolio Kami</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+                        <li class="breadcrumb-item active">Portfolio</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filters -->
+    <section class="section portfolio-filters-section">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Website</button>
+                <button class="filter-btn" data-filter="app">Aplikasi</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="section portfolio-grid-section">
+        <div class="container">
+            <div class="portfolio-masonry">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Website Perusahaan">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Website Perusahaan"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Website Perusahaan E-commerce</h3>
+                        <p>Web Development, UI/UX Design</p>
+                        <span class="portfolio-category">Website</span>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Aplikasi Mobile">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Aplikasi Mobile"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Aplikasi Mobile Banking</h3>
+                        <p>App Development, UI/UX Design</p>
+                        <span class="portfolio-category">Aplikasi</span>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Toko Online">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Toko Online"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Toko Online Fashion</h3>
+                        <p>E-commerce, Web Development</p>
+                        <span class="portfolio-category">E-commerce</span>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1567446537738-74804ee3a9bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Brand Identity">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1567446537738-74804ee3a9bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Brand Identity"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Brand Identity Perusahaan</h3>
+                        <p>Branding, Graphic Design</p>
+                        <span class="portfolio-category">Branding</span>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="uiux">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dashboard Analytics">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Dashboard Analytics"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Dashboard Analytics</h3>
+                        <p>UI/UX Design, Web Development</p>
+                        <span class="portfolio-category">UI/UX Design</span>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Company Profile">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Company Profile"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Website Company Profile</h3>
+                        <p>Web Development, SEO</p>
+                        <span class="portfolio-category">Website</span>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 7 -->
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Food Delivery App">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Food Delivery App"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Aplikasi Food Delivery</h3>
+                        <p>App Development, UI/UX Design</p>
+                        <span class="portfolio-category">Aplikasi</span>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 8 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Electronics Store">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Electronics Store"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Toko Elektronik Online</h3>
+                        <p>E-commerce, Payment Integration</p>
+                        <span class="portfolio-category">E-commerce</span>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 9 -->
+                <div class="portfolio-item" data-category="uiux">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mobile App Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-actions">
+                                <a href="portfolio-detail.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                <a href="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="portfolio-zoom" data-fancybox="gallery" data-caption="Mobile App Design"><i class="fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Mobile App UI Design</h3>
+                        <p>UI/UX Design, Prototyping</p>
+                        <span class="portfolio-category">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-footer">
+                <a href="contact.html" class="btn btn-primary">Mulai Proyek Anda</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Apa Kata <span class="text-accent">Klien</span> Kami?</h2>
+                <p class="section-subtitle">Testimonial dari klien yang telah menggunakan layanan kami</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <!-- Testimonial Item 1 -->
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"Tim yang profesional dan hasil kerja yang memuaskan. Website perusahaan kami menjadi lebih modern dan responsive setelah bekerjasama dengan mereka."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe">
+                            </div>
+                            <div class="author-info">
+                                <h4>John Doe</h4>
+                                <p>CEO Company ABC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial Item 2 -->
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"Aplikasi mobile yang dikembangkan untuk bisnis kami sangat user-friendly dan membantu meningkatkan engagement dengan pelanggan secara signifikan."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jane Smith">
+                            </div>
+                            <div class="author-info">
+                                <h4>Jane Smith</h4>
+                                <p>Director of XYZ Corp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial Item 3 -->
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"Layanan digital marketing yang mereka berikan telah membantu kami meningkatkan traffic website dan conversion rate hingga 300% dalam waktu 6 bulan."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Robert Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Robert Johnson</h4>
+                                <p>Marketing Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Siap Membuat <span class="text-accent">Proyek</span> Anda?</h2>
+                <p>Hubungi kami sekarang untuk konsultasi gratis dan diskusikan ide proyek Anda dengan tim kami.</p>
+                <a href="contact.html" class="btn btn-light">Kontak Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><span class="logo-accent">Nama</span>Perusahaan</h3>
+                    <p>Kami menyediakan solusi digital terbaik untuk membantu bisnis Anda tumbuh dan berkembang di era digital.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="services.html">Layanan</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Layanan Kami</h4>
+                    <ul>
+                        <li><a href="services.html#webdev">Web Development</a></li>
+                        <li><a href="services.html#appdev">App Development</a></li>
+                        <li><a href="services.html#digitalmarketing">Digital Marketing</a></li>
+                        <li><a href="services.html#design">UI/UX Design</a></li>
+                        <li><a href="services.html#consulting">Konsultasi IT</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Kontak Kami</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Jl. Contoh No. 123, Jakarta</li>
+                        <li><i class="fas fa-phone"></i> +62 123 4567 890</li>
+                        <li><i class="fas fa-envelope"></i> info@namaperusahaan.com</li>
+                        <li><i class="fas fa-clock"></i> Senin - Jumat: 09:00 - 17:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2023 Nama Perusahaan. All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>v

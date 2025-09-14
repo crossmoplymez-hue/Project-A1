@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan - Nama Perusahaan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h2><span class="logo-accent"></span>Zayyan's Web</h2>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="services.html" class="active">Layanan</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <div class="page-banner-content">
+                <h1>Layanan Kami</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+                        <li class="breadcrumb-item active">Layanan</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Detail Section -->
+    <section class="section services-detail">
+        <div class="container">
+            <div class="service-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="webdev">Web Development</button>
+                    <button class="tab-btn" data-tab="appdev">App Development</button>
+                    <button class="tab-btn" data-tab="digitalmarketing">Digital Marketing</button>
+                    <button class="tab-btn" data-tab="design">UI/UX Design</button>
+                    <button class="tab-btn" data-tab="consulting">Konsultasi IT</button>
+                </div>
+                
+                <div class="tab-content active" id="webdev">
+                    <div class="service-tab-content">
+                        <div class="service-tab-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Web Development">
+                        </div>
+                        <div class="service-tab-text">
+                            <h3>Web Development</h3>
+                            <p>Kami mengembangkan website profesional, responsif, dan SEO-friendly yang dirancang khusus untuk memenuhi kebutuhan bisnis Anda. Setiap website yang kami buat dioptimalkan untuk performa terbaik dan pengalaman pengguna yang luar biasa.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Website Responsif</li>
+                                <li><i class="fas fa-check"></i> Optimasi SEO</li>
+                                <li><i class="fas fa-check"></i> Keamanan Terjamin</li>
+                                <li><i class="fas fa-check"></i> CMS Custom</li>
+                                <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                                <li><i class="fas fa-check"></i> Maintenance & Support</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-primary">Konsultasi Gratis</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="appdev">
+                    <div class="service-tab-content">
+                        <div class="service-tab-image">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="App Development">
+                        </div>
+                        <div class="service-tab-text">
+                            <h3>App Development</h3>
+                            <p>Kami membuat aplikasi mobile yang powerful dan user-friendly untuk platform iOS dan Android. Aplikasi kami dirancang untuk memberikan pengalaman pengguna yang seamless dan memenuhi tujuan bisnis Anda.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> iOS & Android Development</li>
+                                <li><i class="fas fa-check"></i> Native & Hybrid Apps</li>
+                                <li><i class="fas fa-check"></i> UI/UX yang Intuitif</li>
+                                <li><i class="fas fa-check"></i> Integrasi API</li>
+                                <li><i class="fas fa-check"></i> Testing & Quality Assurance</li>
+                                <li><i class="fas fa-check"></i> App Store Deployment</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-primary">Konsultasi Gratis</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="digitalmarketing">
+                    <div class="service-tab-content">
+                        <div class="service-tab-image">
+                            <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8f5a07a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Digital Marketing">
+                        </div>
+                        <div class="service-tab-text">
+                            <h3>Digital Marketing</h3>
+                            <p>Kami membantu bisnis Anda tumbuh dengan strategi digital marketing yang terukur dan efektif. Dari SEO hingga kampanye media sosial, kami memiliki keahlian untuk meningkatkan visibilitas online Anda.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Search Engine Optimization (SEO)</li>
+                                <li><i class="fas fa-check"></i> Social Media Marketing</li>
+                                <li><i class="fas fa-check"></i> Google Ads Management</li>
+                                <li><i class="fas fa-check"></i> Content Marketing</li>
+                                <li><i class="fas fa-check"></i> Email Marketing</li>
+                                <li><i class="fas fa-check"></i> Analytics & Reporting</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-primary">Konsultasi Gratis</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="design">
+                    <div class="service-tab-content">
+                        <div class="service-tab-image">
+                            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="UI/UX Design">
+                        </div>
+                        <div class="service-tab-text">
+                            <h3>UI/UX Design</h3>
+                            <p>Kami menciptakan desain antarmuka yang tidak hanya menarik secara visual tetapi juga memberikan pengalaman pengguna yang exceptional. Desain kami fokus pada konversi dan kepuasan pengguna.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> User Research</li>
+                                <li><i class="fas fa-check"></i> Wireframing & Prototyping</li>
+                                <li><i class="fas fa-check"></i> Visual Design</li>
+                                <li><i class="fas fa-check"></i> Interaction Design</li>
+                                <li><i class="fas fa-check"></i> Usability Testing</li>
+                                <li><i class="fas fa-check"></i> Design System</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-primary">Konsultasi Gratis</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="consulting">
+                    <div class="service-tab-content">
+                        <div class="service-tab-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="IT Consulting">
+                        </div>
+                        <div class="service-tab-text">
+                            <h3>Konsultasi IT</h3>
+                            <p>Kami memberikan konsultasi strategis untuk membantu bisnis Anda memanfaatkan teknologi secara maksimal. Dari perencanaan hingga implementasi, kami siap membantu transformasi digital Anda.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> IT Strategy Planning</li>
+                                <li><i class="fas fa-check"></i> Digital Transformation</li>
+                                <li><i class="fas fa-check"></i> Technology Audit</li>
+                                <li><i class="fas fa-check"></i> System Integration</li>
+                                <li><i class="fas fa-check"></i> Cloud Solutions</li>
+                                <li><i class="fas fa-check"></i> IT Infrastructure</li>
+                            </ul>
+                            <a href="contact.html" class="btn btn-primary">Konsultasi Gratis</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Paket <span class="text-accent">Harga</span></h2>
+                <p class="section-subtitle">Pilih paket yang sesuai dengan kebutuhan dan budget Anda</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-plan">
+                    <div class="plan-name">Basic</div>
+                    <div class="plan-price">Rp 2.500.000<span>/project</span></div>
+                    <div class="plan-desc">Cocok untuk bisnis kecil dan startup</div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 5 Halaman Website</li>
+                        <li><i class="fas fa-check"></i> Desain Responsif</li>
+                        <li><i class="fas fa-check"></i> 1 Revisi Desain</li>
+                        <li><i class="fas fa-check"></i> CMS Dasar</li>
+                        <li><i class="fas fa-times"></i> Optimasi SEO</li>
+                        <li><i class="fas fa-times"></i> Maintenance</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Pilih Paket</a>
+                </div>
+                
+                <div class="pricing-plan popular">
+                    <div class="plan-name">Professional</div>
+                    <div class="plan-price">Rp 5.500.000<span>/project</span></div>
+                    <div class="plan-desc">Cocok untuk bisnis menengah</div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 10 Halaman Website</li>
+                        <li><i class="fas fa-check"></i> Desain Responsif</li>
+                        <li><i class="fas fa-check"></i> 3 Revisi Desain</li>
+                        <li><i class="fas fa-check"></i> CMS Custom</li>
+                        <li><i class="fas fa-check"></i> Optimasi SEO Dasar</li>
+                        <li><i class="fas fa-check"></i> 3 Bulan Maintenance</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Pilih Paket</a>
+                </div>
+                
+                <div class="pricing-plan">
+                    <div class="plan-name">Enterprise</div>
+                    <div class="plan-price">Rp 9.500.000<span>/project</span></div>
+                    <div class="plan-desc">Cocok untuk perusahaan besar</div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Halaman Unlimited</li>
+                        <li><i class="fas fa-check"></i> Desain Responsif</li>
+                        <li><i class="fas fa-check"></i> Revisi Unlimited</li>
+                        <li><i class="fas fa-check"></i> CMS Custom Advanced</li>
+                        <li><i class="fas fa-check"></i> Optimasi SEO Lengkap</li>
+                        <li><i class="fas fa-check"></i> 6 Bulan Maintenance</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Pilih Paket</a>
+                </div>
+            </div>
+            
+            <div class="section-footer">
+                <p>Butuh paket khusus? <a href="contact.html">Hubungi kami</a> untuk konsultasi custom package.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pertanyaan <span class="text-accent">Umum</span></h2>
+                <p class="section-subtitle">Berikut adalah beberapa pertanyaan yang sering diajukan oleh klien kami</p>
+            </div>
+            
+            <div class="faq-accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Berapa lama waktu yang dibutuhkan untuk menyelesaikan sebuah website?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Waktu pengerjaan tergantung pada kompleksitas proyek. Website basic biasanya diselesaikan dalam 2-3 minggu, website profesional dalam 4-6 minggu, dan website enterprise dalam 8-12 minggu.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Apakah saya bisa request revisi desain?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Ya, setiap paket layanan kami mencakup revisi desain. Paket Basic mencakup 1 revisi, Paket Professional mencakup 3 revisi, dan Paket Enterprise mencakup revisi unlimited selama masa pengerjaan.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Apakah harga sudah termasuk domain dan hosting?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Harga yang tertera hanya untuk jasa pembuatan website. Domain dan hosting tidak termasuk, namun kami dapat membantu Anda untuk membeli dan mengatur domain serta hosting sesuai kebutuhan.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Bagaimana proses pembayarannya?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Pembayaran dilakukan dalam 3 termin: 50% di awal, 30% setelah mockup disetujui, dan 20% setelah website selesai dan sebelum deploy. Kami menerima transfer bank dan pembayaran digital.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Apakah website saya akan responsif di semua perangkat?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Ya, semua website yang kami buat fully responsive dan akan tampil optimal di desktop, tablet, dan smartphone. Kami melakukan testing di berbagai perangkat dan browser sebelum deliver.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Apakah saya bisa update konten website sendiri?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Ya, kami akan memberikan CMS (Content Management System) yang user-friendly sehingga Anda dapat dengan mudah mengupdate konten website tanpa perlu pengetahuan teknis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Siap Meningkatkan <span class="text-accent">Bisnis</span> Anda?</h2>
+                <p>Hubungi kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik untuk proyek Anda.</p>
+                <a href="contact.html" class="btn btn-light">Kontak Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><span class="logo-accent">Nama</span>Perusahaan</h3>
+                    <p>Kami menyediakan solusi digital terbaik untuk membantu bisnis Anda tumbuh dan berkembang di era digital.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="services.html">Layanan</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Layanan Kami</h4>
+                    <ul>
+                        <li><a href="services.html#webdev">Web Development</a></li>
+                        <li><a href="services.html#appdev">App Development</a></li>
+                        <li><a href="services.html#digitalmarketing">Digital Marketing</a></li>
+                        <li><a href="services.html#design">UI/UX Design</a></li>
+                        <li><a href="services.html#consulting">Konsultasi IT</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Kontak Kami</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Jl. Contoh No. 123, Jakarta</li>
+                        <li><i class="fas fa-phone"></i> +62 123 4567 890</li>
+                        <li><i class="fas fa-envelope"></i> info@namaperusahaan.com</li>
+                        <li><i class="fas fa-clock"></i> Senin - Jumat: 09:00 - 17:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2023 Nama Perusahaan. All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
